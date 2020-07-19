@@ -6,7 +6,7 @@ Public Class ValuesController
 
     ' GET api/values
     Public Function GetValues() As IEnumerable(Of String)
-        Return New String() {"satishkumar", "patel"}
+        Return New String() {"satishkumarTesting", "patel"}
     End Function
 
     ' GET api/values/5
